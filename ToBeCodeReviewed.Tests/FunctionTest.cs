@@ -21,6 +21,7 @@ namespace ToBeCodeReviewed.Tests
 {
     public class FunctionTest
     {
+        /*
         [Fact]
         public async Task IntegrationTest()
         {
@@ -75,5 +76,6 @@ namespace ToBeCodeReviewed.Tests
                 await AmazonS3Util.DeleteS3BucketWithObjectsAsync(s3Client, bucketName);
             }
         }
+        */
     }
 }
