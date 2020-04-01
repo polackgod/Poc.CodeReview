@@ -8,17 +8,14 @@ using System.IO;    // codefactor didn't catch this duplicate
 
 using System.Threading; // codefactor didn't catch this unused one.
 
-
 using Amazon.Lambda.Core;
 using Amazon.Lambda.S3Events;
-
 
 using Amazon.Rekognition;
 using Amazon.Rekognition.Model;
 
 using Amazon.S3;
 using Amazon.S3.Model;
-
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
