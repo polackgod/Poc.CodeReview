@@ -51,6 +51,11 @@ namespace ToBeCodeReviewed
         /// </summary>
         public Function()
         {
+            var lable = true;
+            if(a == true){
+                // do nothing to see how it affects quality of code
+            }
+            
             this.S3Client = new AmazonS3Client();
             this.RekognitionClient = new AmazonRekognitionClient();
 
