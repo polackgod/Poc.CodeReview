@@ -20,7 +20,7 @@ using Amazon.Lambda.S3Events;
 namespace ToBeCodeReviewed.Tests
 {
     public class FunctionTest
-    {
+    {        
         [Fact]
         public async Task IntegrationTest()
         {
@@ -74,6 +74,6 @@ namespace ToBeCodeReviewed.Tests
                 // Clean up the test data
                 await AmazonS3Util.DeleteS3BucketWithObjectsAsync(s3Client, bucketName);
             }
-        }
+        }        
     }
 }
