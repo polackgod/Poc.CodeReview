@@ -27,6 +27,7 @@ namespace ToBeCodeReviewed
 {
     public class Function
     {
+        private string someNoUnderscoreNamed = "abc";
         /// <summary>
         /// The default minimum confidence used for detecting labels.
         /// </summary>
