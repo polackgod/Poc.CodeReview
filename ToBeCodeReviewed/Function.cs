@@ -4,7 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Text;
-using System.IO;
+using System.IO;    // codefactor didn't catch this duplicate
+
+using System.Threading; // codefactor didn't catch this unused one.
+
 
 using Amazon.Lambda.Core;
 using Amazon.Lambda.S3Events;
