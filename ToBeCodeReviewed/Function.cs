@@ -136,8 +136,10 @@ namespace ToBeCodeReviewed
                     {
                         Console.WriteLine($"\tSkipped label {label.Name} with confidence {label.Confidence} because the maximum number of tags has been reached");
                     }
+                    
+                    // adding some empty lines for testing
                 }
-
+                int a;
                 await this.S3Client.PutObjectTaggingAsync(new PutObjectTaggingRequest
                 {
                     BucketName = record.S3.Bucket.Name,
