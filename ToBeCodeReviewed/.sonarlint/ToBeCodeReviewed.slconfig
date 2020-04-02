@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://18.224.17.154/",
+  "Organization": null,
+  "ProjectKey": "Poc.CodeReview",
+  "ProjectName": "Poc.CodeReview",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AWvdZ5b80RtEHYZrTZP6",
+      "ProfileTimestamp": "2019-07-10T19:41:22Z"
+    }
+  }
+}

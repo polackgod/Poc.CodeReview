@@ -1,0 +1,14 @@
+÷
+ToBeCodeReviewed.Functionobject2
+
+Function()$ToBeCodeReviewed.Function.Function()´
+KFunction(Amazon.S3.IAmazonS3, Amazon.Rekognition.IAmazonRekognition, float)eToBeCodeReviewed.Function.Function(Amazon.S3.IAmazonS3, Amazon.Rekognition.IAmazonRekognition, float)Â
+RFunctionHandler(Amazon.Lambda.S3Events.S3Event, Amazon.Lambda.Core.ILambdaContext)lToBeCodeReviewed.Function.FunctionHandler(Amazon.Lambda.S3Events.S3Event, Amazon.Lambda.Core.ILambdaContext)6
+S3Client.get&ToBeCodeReviewed.Function.S3Client.get6
+S3Client.set&ToBeCodeReviewed.Function.S3Client.setH
+RekognitionClient.get/ToBeCodeReviewed.Function.RekognitionClient.getH
+RekognitionClient.set/ToBeCodeReviewed.Function.RekognitionClient.set@
+MinConfidence.get+ToBeCodeReviewed.Function.MinConfidence.get@
+MinConfidence.set+ToBeCodeReviewed.Function.MinConfidence.setL
+SupportedImageTypes.get1ToBeCodeReviewed.Function.SupportedImageTypes.getL
+SupportedImageTypes.set1ToBeCodeReviewed.Function.SupportedImageTypes.set

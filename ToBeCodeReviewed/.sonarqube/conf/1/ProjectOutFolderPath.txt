@@ -1,0 +1,1 @@
+C:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\.sonarqube\out\1
