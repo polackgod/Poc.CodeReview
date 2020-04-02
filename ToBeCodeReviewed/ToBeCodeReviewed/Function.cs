@@ -10,6 +10,8 @@ using Amazon.Lambda.Core;
 using Amazon.Lambda.S3Events;
 
 using System.Threading;
+
+using System.Threading;
 using Amazon.Rekognition;
 using Amazon.Rekognition.Model;
 
