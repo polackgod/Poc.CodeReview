@@ -10,7 +10,7 @@ using System.Threading; // codefactor didn't catch this unused one.
 
 using Amazon.Lambda.Core;
 using Amazon.Lambda.S3Events;
-
+using System.Net;
 using Amazon.Rekognition;
 using Amazon.Rekognition.Model;
 
