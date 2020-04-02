@@ -53,7 +53,7 @@ namespace ToBeCodeReviewed
         public Function()
         {
             var lable = true;
-            if(a == true){
+            if(lable == true){
                 // do nothing to see how it affects quality of code
             }
             
