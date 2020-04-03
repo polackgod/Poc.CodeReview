@@ -1,4 +1,4 @@
-c
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csutf-8`
-UC:\Users\pszajowski\AppData\Local\Temp\.NETCoreApp,Version=v2.1.AssemblyAttributes.csutf-8“
-‡C:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\obj\Debug\netcoreapp2.1\ToBeCodeReviewed.AssemblyInfo.csutf-8
+J
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.csutf-8`
+UC:\Users\pszajowski\AppData\Local\Temp\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8u
+jC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.csutf-8

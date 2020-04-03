@@ -1,36 +1,20 @@
 
-eToBeCodeReviewed.Function.Function(Amazon.S3.IAmazonS3, Amazon.Rekognition.IAmazonRekognition, float)d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csS S("0*¼
-0ß
-Ü
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csU U($
-
-%0void"&ToBeCodeReviewed.Function.S3Client.set*
-ToBeCodeReviewed.Function*!
-
-s3ClientAmazon.S3.IAmazonS3ƒ
-€
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csV V(6
-
-%1void"/ToBeCodeReviewed.Function.RekognitionClient.set*
-ToBeCodeReviewed.Function*<
-:
-rekognitionClient%Amazon.Rekognition.IAmazonRekognitionÉ
-Æ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csW W(.
-
-%2void"+ToBeCodeReviewed.Function.MinConfidence.set*
-ToBeCodeReviewed.Function*
-""*
-1*€
-1"{
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csX X(	
-implicit return:
-s3ClientAmazon.S3.IAmazonS3::
-rekognitionClient%Amazon.Rekognition.IAmazonRekognition:
-minConfidencefloatB
-ToBeCodeReviewed.Function
+(ConsoleApp1.Program.ReturnString(string)K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs ()"0*â
+0~
+|
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (
+%0string"string.ToUpper()*
+
+astring"]
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (
+
+%0string*g
+1"b
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (	
+implicit return:
+astringB"
+ConsoleApp1.Program

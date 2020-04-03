@@ -1,172 +1,20 @@
 
-$ToBeCodeReviewed.Function.Function()d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs4 4("0*Õ
-0£†
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs6 6(0
-%0Amazon.S3.AmazonS3Client"Amazon.S3.AmazonS3Client¬
-ø
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs6  6(.
-
-%1void")Amazon.S3.AmazonS3Client.AmazonS3Client()* 
-
-%0Amazon.S3.AmazonS3Clientﬁ
-€
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs6 6(0
-
-%2void"&ToBeCodeReviewed.Function.S3Client.set*
-ToBeCodeReviewed.Function* 
-
-%0Amazon.S3.AmazonS3Client«ƒ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs7% 7(B0
-%3*Amazon.Rekognition.AmazonRekognitionClient"*Amazon.Rekognition.AmazonRekognitionClientÔ
-Ï
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs7) 7(@
-
-%4void"DAmazon.Rekognition.AmazonRekognitionClient.AmazonRekognitionClient()*2
-0
-%3*Amazon.Rekognition.AmazonRekognitionClient˘
-ˆ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs7 7(B
-
-%5void"/ToBeCodeReviewed.Function.RekognitionClient.set*
-ToBeCodeReviewed.Function*2
-0
-%3*Amazon.Rekognition.AmazonRekognitionClient|
-z
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs9U 9(}
-%6"__id*
-"" 
-«
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs9+ 9(~
-%7string"1System.Environment.GetEnvironmentVariable(string)*"
-System.Environment*
-
-%6£
-†
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs9 9(~"
-environmentMinConfidencestring"__id*
+.ConsoleApp1.Program.ReturnUpperString1(string)K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (/"0*‚
+0~
+|
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs! !(
+%0string"string.ToUpper()*
+
+astring"]
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs! !(
 
-%7string 
-«
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs: :(C
-
-%8bool"!string.IsNullOrWhiteSpace(string)*
-"
-string*$
-"
-environmentMinConfidencestring*
-1
-2*È
-1€
-ÿ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs= =(F
-
-%9bool"!float.TryParse(string, out float)*	"
-float*$
-"
-environmentMinConfidencestring*
-
-valuefloat*
-3
-4*Ä
-3‘
-—
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs? ?(.
-%10void"+ToBeCodeReviewed.Function.MinConfidence.set*
-ToBeCodeReviewed.Function*
-
-valuefloat√
-¿
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs@G @(Y
-%11float"+ToBeCodeReviewed.Function.MinConfidence.get*
-ToBeCodeReviewed.Functionô
-ñ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs@& @([
-%12float"__concat*
-""*
-
-%11floatº
-π
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs@ @(\
-%13void" System.Console.WriteLine(string)*"
-System.Console*
-
-%12float*
-5*ã
-4≈
-¬
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csDè D(°
-%14float"+ToBeCodeReviewed.Function.MinConfidence.get*
-ToBeCodeReviewed.Function±
-Æ
-e
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csD& D(£
-%15string"__concat*
-""*$
-"
-environmentMinConfidencestringú
-ô
-e
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csD& D(£
-%16string"__concat*
-
-%15string*
-""§
-°
-e
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csD& D(£
-%17string"__concat*
-
-%16string*
-
-%14floatæ
-ª
-e
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csD D(§
-%18void" System.Console.WriteLine(string)*"
-System.Console*
-
-%17string*
-5*©
-2√
-¿
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csII I([
-%19float"+ToBeCodeReviewed.Function.MinConfidence.get*
-ToBeCodeReviewed.Functionô
-ñ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csI" I(]
-%20float"__concat*
-""*
-
-%19floatº
-π
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csI I(^
-%21void" System.Console.WriteLine(string)*"
-System.Console*
-
-%20float*
-5*Ä
-5"{
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csK K(	
-implicit returnB
-ToBeCodeReviewed.Function
+%0string*g
+1"b
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs" "(	
+implicit return:
+astringB"
+ConsoleApp1.Program

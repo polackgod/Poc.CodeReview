@@ -1,615 +1,20 @@
 
-lToBeCodeReviewed.Function.FunctionHandler(Amazon.Lambda.S3Events.S3Event, Amazon.Lambda.Core.ILambdaContext)d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csa a()"0*˘
-0Ó
-Î
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csc" c(/(
-%0"System.Collections.Generic.List<T>".Amazon.S3.Util.S3EventNotification.Records.get*)
-'
-inputAmazon.Lambda.S3Events.S3Event*
-1*
-1*
-2
-3*”
-2Ë
-Â
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cse e('+
-%1%System.Collections.Generic.HashSet<T>"1ToBeCodeReviewed.Function.SupportedImageTypes.get*
-ToBeCodeReviewed.Function´
-®
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cseC e(L1
-%2+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordè
-å
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cseC e(S7
-%31Amazon.S3.Util.S3EventNotification.S3ObjectEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Object.get*3
-1
-%2+Amazon.S3.Util.S3EventNotification.S3EntityÌ
-Í
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cseC e(W
-%4string"9Amazon.S3.Util.S3EventNotification.S3ObjectEntity.Key.get*9
-7
-%31Amazon.S3.Util.S3EventNotification.S3ObjectEntity¿
-Ω
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cse1 e(X
-%5string"#System.IO.Path.GetExtension(string)*"
-System.IO.Path*
+-ConsoleApp1.Program.ReturnUpperString(string)K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (."0*‚
+0~
+|
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (
+%0string"string.ToUpper()*
+
+astring"]
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (
 
-%4stringÁ
-‰
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cse e(Y
-
-%6bool"1System.Collections.Generic.HashSet<T>.Contains(T)*-
-+
-%1%System.Collections.Generic.HashSet<T>*
-
-%5string*
-4
-5*Æ
-4´
-®
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg0 g(91
-%7+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordè
-å
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg0 g(@7
-%81Amazon.S3.Util.S3EventNotification.S3BucketEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Bucket.get*3
-1
-%7+Amazon.S3.Util.S3EventNotification.S3EntityÓ
-Î
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg0 g(E
-%9string":Amazon.S3.Util.S3EventNotification.S3BucketEntity.Name.get*9
-7
-%81Amazon.S3.Util.S3EventNotification.S3BucketEntity¨
-©
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csgH g(Q2
-%10+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordë
-é
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csgH g(X8
-%111Amazon.S3.Util.S3EventNotification.S3ObjectEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Object.get*4
-2
-%10+Amazon.S3.Util.S3EventNotification.S3EntityÔ
-Ï
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csgH g(\
-%12string"9Amazon.S3.Util.S3EventNotification.S3ObjectEntity.Key.get*:
-8
-%111Amazon.S3.Util.S3EventNotification.S3ObjectEntityö
-ó
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg& g(|
-%13string"__concat*
-""*
-
-%9stringõ
-ò
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg& g(|
-%14string"__concat*
-
-%13string*
-""§
-°
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg& g(|
-%15string"__concat*
-
-%14string*
-
-%12stringõ
-ò
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg& g(|
-%16string"__concat*
-
-%15string*
-""Ω
-∫
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csg g(}
-%17void" System.Console.WriteLine(string)*"
-System.Console*
-
-%16string*
-1*àB
-5¨
-©
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cskA k(J2
-%18+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordë
-é
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cskA k(Q8
-%191Amazon.S3.Util.S3EventNotification.S3BucketEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Bucket.get*4
-2
-%18+Amazon.S3.Util.S3EventNotification.S3Entity
-Ì
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cskA k(V
-%20string":Amazon.S3.Util.S3EventNotification.S3BucketEntity.Name.get*:
-8
-%191Amazon.S3.Util.S3EventNotification.S3BucketEntity¨
-©
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cskY k(b2
-%21+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordë
-é
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cskY k(i8
-%221Amazon.S3.Util.S3EventNotification.S3ObjectEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Object.get*4
-2
-%21+Amazon.S3.Util.S3EventNotification.S3EntityÔ
-Ï
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cskY k(m
-%23string"9Amazon.S3.Util.S3EventNotification.S3ObjectEntity.Key.get*:
-8
-%221Amazon.S3.Util.S3EventNotification.S3ObjectEntityõ
-ò
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csk" k(o
-%24string"__concat*
-""*
-
-%20stringõ
-ò
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csk" k(o
-%25string"__concat*
-
-%24string*
-""§
-°
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csk" k(o
-%26string"__concat*
-
-%25string*
-
-%23stringΩ
-∫
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csk k(p
-%27void" System.Console.WriteLine(string)*"
-System.Console*
-
-%26stringÁ
-‰
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csl, l(B,
-%28%Amazon.Rekognition.IAmazonRekognition"/ToBeCodeReviewed.Function.RekognitionClient.get*
-ToBeCodeReviewed.FunctionÃ…
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cslU w(3
-%29,Amazon.Rekognition.Model.DetectLabelsRequest",Amazon.Rekognition.Model.DetectLabelsRequestÒ
-Ó
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cslY l(l
-%30void"BAmazon.Rekognition.Model.DetectLabelsRequest.DetectLabelsRequest()*5
-3
-%29,Amazon.Rekognition.Model.DetectLabelsRequest€
-ÿ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csn$ n(1
-%31float"+ToBeCodeReviewed.Function.MinConfidence.get*5
-3
-%29,Amazon.Rekognition.Model.DetectLabelsRequest˝
-˙
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csn n(1
-%32void">Amazon.Rekognition.Model.DetectLabelsRequest.MinConfidence.set*5
-3
-%29,Amazon.Rekognition.Model.DetectLabelsRequest*
-
-%31float∞≠
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cso v(%
-%33Amazon.Rekognition.Model.Image"Amazon.Rekognition.Model.Image«
-ƒ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cso  o(%
-%34void"&Amazon.Rekognition.Model.Image.Image()*'
-%
-%33Amazon.Rekognition.Model.Image∂≥
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csq# u((
-%35!Amazon.Rekognition.Model.S3Object"!Amazon.Rekognition.Model.S3Object–
-Õ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csq' q(H
-%36void",Amazon.Rekognition.Model.S3Object.S3Object()**
-(
-%35!Amazon.Rekognition.Model.S3Object¨
-©
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.css% s(.2
-%37+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordë
-é
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.css% s(58
-%381Amazon.S3.Util.S3EventNotification.S3BucketEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Bucket.get*4
-2
-%37+Amazon.S3.Util.S3EventNotification.S3Entity
-Ì
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.css% s(:
-%39string":Amazon.S3.Util.S3EventNotification.S3BucketEntity.Name.get*:
-8
-%381Amazon.S3.Util.S3EventNotification.S3BucketEntity·
-ﬁ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.css s(:
-%40void",Amazon.Rekognition.Model.S3Object.Bucket.set**
-(
-%35!Amazon.Rekognition.Model.S3Object*
-
-%39string¨
-©
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cst# t(,2
-%41+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordë
-é
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cst# t(38
-%421Amazon.S3.Util.S3EventNotification.S3ObjectEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Object.get*4
-2
-%41+Amazon.S3.Util.S3EventNotification.S3EntityÔ
-Ï
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cst# t(7
-%43string"9Amazon.S3.Util.S3EventNotification.S3ObjectEntity.Key.get*:
-8
-%421Amazon.S3.Util.S3EventNotification.S3ObjectEntityﬂ
-‹
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cst t(7
-%44void"*Amazon.Rekognition.Model.S3Object.Name.set**
-(
-%35!Amazon.Rekognition.Model.S3Object*
-
-%43string¯
-ı
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csq u(
-%45void"+Amazon.Rekognition.Model.Image.S3Object.set*'
-%
-%33Amazon.Rekognition.Model.Image**
-(
-%35!Amazon.Rekognition.Model.S3Objecté
-ã
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cso v(
-%46void"6Amazon.Rekognition.Model.DetectLabelsRequest.Image.set*5
-3
-%29,Amazon.Rekognition.Model.DetectLabelsRequest*'
-%
-%33Amazon.Rekognition.Model.ImageˆÛ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csl, w(+
-%47$System.Threading.Tasks.Task<TResult>"âAmazon.Rekognition.IAmazonRekognition.DetectLabelsAsync(Amazon.Rekognition.Model.DetectLabelsRequest, System.Threading.CancellationToken)*.
-,
-%28%Amazon.Rekognition.IAmazonRekognition*5
-3
-%29,Amazon.Rekognition.Model.DetectLabelsRequest*
-""2cDetectLabelsAsync(Amazon.Rekognition.Model.DetectLabelsRequest, System.Threading.CancellationToken)π
-∂
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csl w(@
-detectResponses-Amazon.Rekognition.Model.DetectLabelsResponse"__id*
-""∏µ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csy y(*)
-%48"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Œ
-À
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csy y((
-%49void")System.Collections.Generic.List<T>.List()*+
-)
-%48"System.Collections.Generic.List<T>»
-≈
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csy y(**
-tags"System.Collections.Generic.List<T>"__id*+
-)
-%48"System.Collections.Generic.List<T>í
-è
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csz% z(;)
-%50"System.Collections.Generic.List<T>"8Amazon.Rekognition.Model.DetectLabelsResponse.Labels.get*B
-@
-detectResponses-Amazon.Rekognition.Model.DetectLabelsResponse*
-6*
-6*
-7
-8*‡
-7—
-Œ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs| |(!
-
-%51int",System.Collections.Generic.List<T>.Count.get*,
-*
-tags"System.Collections.Generic.List<T>*
-9
-10*Ω
-9Ã
-…
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs~; ~(E
-%52string"'Amazon.Rekognition.Model.Label.Name.get*)
-'
-labelAmazon.Rekognition.Model.Label—
-Œ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs~X ~(h
-%53float"-Amazon.Rekognition.Model.Label.Confidence.get*)
-'
-labelAmazon.Rekognition.Model.Labelõ
-ò
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs~* ~(j
-%54string"__concat*
-""*
-
-%52stringõ
-ò
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs~* ~(j
-%55string"__concat*
-
-%54string*
-""£
-†
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs~* ~(j
-%56string"__concat*
-
-%55string*
-
-%53floatΩ
-∫
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs~ ~(k
-%57void" System.Console.WriteLine(string)*"
-System.Console*
-
-%56stringöó
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs! (b
-%58Amazon.S3.Model.Tag"Amazon.S3.Model.TagØ
-¨
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs% ((
-%59void"Amazon.S3.Model.Tag.Tag()*
-
-%58Amazon.S3.Model.TagÃ
-…
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs1 (;
-%60string"'Amazon.Rekognition.Model.Label.Name.get*)
-'
-labelAmazon.Rekognition.Model.Label¬
-ø
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs+ (;
-%61void"Amazon.S3.Model.Tag.Key.set*
-
-%58Amazon.S3.Model.Tag*
-
-%60string—
-Œ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csE (U
-%62float"-Amazon.Rekognition.Model.Label.Confidence.get*)
-'
-labelAmazon.Rekognition.Model.Labelö
-ó
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csE (`
-%63string"float.ToString()*
-
-%62floatƒ
-¡
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs= (`
-%64void"Amazon.S3.Model.Tag.Value.set*
-
-%58Amazon.S3.Model.Tag*
-
-%63string“
-œ
-d
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.cs (c
-%65void"
-__arrayAdd*,
-*
-tags"System.Collections.Generic.List<T>*: *
-
-%58Amazon.S3.Model.Tag*
-6*ˇ	
-10Œ
-À
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉ= É(G
-%66string"'Amazon.Rekognition.Model.Label.Name.get*)
-'
-labelAmazon.Rekognition.Model.Label”
-–
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉZ É(j
-%67float"-Amazon.Rekognition.Model.Label.Confidence.get*)
-'
-labelAmazon.Rekognition.Model.Labelû
-õ
-g
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉ* É(†
-%68string"__concat*
-""*
-
-%66stringû
-õ
-g
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉ* É(†
-%69string"__concat*
-
-%68string*
-""¶
-£
-g
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉ* É(†
-%70string"__concat*
-
-%69string*
-
-%67floatû
-õ
-g
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉ* É(†
-%71string"__concat*
-
-%70string*
-""¿
-Ω
-g
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csÉ É(°
-%72void" System.Console.WriteLine(string)*"
-System.Console*
-
-%71string*
-6*ï 
-8Œ
-À
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csá á(#
-%73Amazon.S3.IAmazonS3"&ToBeCodeReviewed.Function.S3Client.get*
-ToBeCodeReviewed.Functionƒ¡
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csá: è(.
-%74'Amazon.S3.Model.PutObjectTaggingRequest"'Amazon.S3.Model.PutObjectTaggingRequestÌ
-Í
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csá> á(U
-%75void"AAmazon.S3.Model.PutObjectTaggingRequest.PutObjectTaggingRequest()*0
-.
-%74'Amazon.S3.Model.PutObjectTaggingRequestÆ
-´
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csâ! â(*2
-%76+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordì
-ê
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csâ! â(18
-%771Amazon.S3.Util.S3EventNotification.S3BucketEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Bucket.get*4
-2
-%76+Amazon.S3.Util.S3EventNotification.S3EntityÚ
-Ô
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csâ! â(6
-%78string":Amazon.S3.Util.S3EventNotification.S3BucketEntity.Name.get*:
-8
-%771Amazon.S3.Util.S3EventNotification.S3BucketEntityÛ
-
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csâ â(6
-%79void"6Amazon.S3.Model.PutObjectTaggingRequest.BucketName.set*0
-.
-%74'Amazon.S3.Model.PutObjectTaggingRequest*
-
-%78stringÆ
-´
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csä ä(#2
-%80+Amazon.S3.Util.S3EventNotification.S3Entity"CAmazon.S3.Util.S3EventNotification.S3EventNotificationRecord.S3.get*H
-F
-record<Amazon.S3.Util.S3EventNotification.S3EventNotificationRecordì
-ê
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csä ä(*8
-%811Amazon.S3.Util.S3EventNotification.S3ObjectEntity"6Amazon.S3.Util.S3EventNotification.S3Entity.Object.get*4
-2
-%80+Amazon.S3.Util.S3EventNotification.S3EntityÒ
-Ó
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csä ä(.
-%82string"9Amazon.S3.Util.S3EventNotification.S3ObjectEntity.Key.get*:
-8
-%811Amazon.S3.Util.S3EventNotification.S3ObjectEntityÏ
-È
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csä ä(.
-%83void"/Amazon.S3.Model.PutObjectTaggingRequest.Key.set*0
-.
-%74'Amazon.S3.Model.PutObjectTaggingRequest*
-
-%82string§°
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csã é(
-%84Amazon.S3.Model.Tagging"Amazon.S3.Model.TaggingΩ
-∫
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csã" ã()
-%85void"!Amazon.S3.Model.Tagging.Tagging()* 
-
-%84Amazon.S3.Model.TaggingÏ
-È
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csç ç(%
-%86void""Amazon.S3.Model.Tagging.TagSet.set* 
-
-%84Amazon.S3.Model.Tagging*,
-*
-tags"System.Collections.Generic.List<T>Å
-˛
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csã é(
-%87void"3Amazon.S3.Model.PutObjectTaggingRequest.Tagging.set*0
-.
-%74'Amazon.S3.Model.PutObjectTaggingRequest* 
-
-%84Amazon.S3.Model.TaggingÃ…
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csá è(+
-%88$System.Threading.Tasks.Task<TResult>"vAmazon.S3.IAmazonS3.PutObjectTaggingAsync(Amazon.S3.Model.PutObjectTaggingRequest, System.Threading.CancellationToken)*
-
-%73Amazon.S3.IAmazonS3*0
-.
-%74'Amazon.S3.Model.PutObjectTaggingRequest*
-""2bPutObjectTaggingAsync(Amazon.S3.Model.PutObjectTaggingRequest, System.Threading.CancellationToken)*
-1*u
-3"p
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csë ë(
-""*É
-11"}
-f
-ZC:\Dev\PiotrPlayground\GitHub\Poc.CodeReview\ToBeCodeReviewed\ToBeCodeReviewed\Function.csí í(	
-implicit return:'
-inputAmazon.Lambda.S3Events.S3Event:,
-context!Amazon.Lambda.Core.ILambdaContextB
-ToBeCodeReviewed.Function
+%0string*g
+1"b
+K
+AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs (	
+implicit return:
+astringB"
+ConsoleApp1.Program
