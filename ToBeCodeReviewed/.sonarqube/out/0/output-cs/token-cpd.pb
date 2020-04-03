@@ -1,4 +1,4 @@
-¢
+ò)
 AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs
 	namespace 	
 ConsoleApp1
@@ -182,6 +182,125 @@ AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs
 (55 
 )55 
 ;55 
-}66 	
-}77 
-}88 
+}66 	
+public:: 
+static::	 
+string:: 
+ReturnUpperString01:: *
+(::* +
+string::+ 1
+a::2 3
+)::3 4
+{;; 	
+return<< 
+a<< 
+.<< 
+ToUpper<< 
+(<< 
+)<< 
+;<< 
+}== 	
+public>> 
+static>> 
+string>> 
+ReturnUpperString11>> 0
+(>>0 1
+string>>1 7
+a>>8 9
+)>>9 :
+{?? 	
+return@@ 
+a@@ 
+.@@ 
+ToUpper@@ 
+(@@ 
+)@@ 
+;@@ 
+}AA 	
+publicBB 
+staticBB 
+stringBB 
+ReturnUpperString12BB 0
+(BB0 1
+stringBB1 7
+aBB8 9
+)BB9 :
+{CC 	
+returnDD 
+aDD 
+.DD 
+ToUpperDD 
+(DD 
+)DD 
+;DD 
+}EE 	
+publicFF 
+staticFF 
+stringFF 
+ReturnUpperString13FF 0
+(FF0 1
+stringFF1 7
+aFF8 9
+)FF9 :
+{GG 	
+returnHH 
+aHH 
+.HH 
+ToUpperHH 
+(HH 
+)HH 
+;HH 
+}II 	
+publicJJ 
+staticJJ 
+stringJJ 
+ReturnUpperString14JJ 0
+(JJ0 1
+stringJJ1 7
+aJJ8 9
+)JJ9 :
+{KK 	
+returnLL 
+aLL 
+.LL 
+ToUpperLL 
+(LL 
+)LL 
+;LL 
+}MM 	
+publicNN 
+staticNN 
+stringNN 
+ReturnUpperString15NN 0
+(NN0 1
+stringNN1 7
+aNN8 9
+)NN9 :
+{OO 	
+returnPP 
+aPP 
+.PP 
+ToUpperPP 
+(PP 
+)PP 
+;PP 
+}QQ 	
+publicRR 
+staticRR 
+stringRR 
+ReturnUpperString16RR 0
+(RR0 1
+stringRR1 7
+aRR8 9
+)RR9 :
+{SS 	
+returnTT 
+aTT 
+.TT 
+ToUpperTT 
+(TT 
+)TT 
+;TT 
+}UU 	
+}VV 
+}WW 

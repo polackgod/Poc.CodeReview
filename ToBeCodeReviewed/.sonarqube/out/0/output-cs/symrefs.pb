@@ -1,4 +1,4 @@
-¥
+“
 AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs
 
 		
@@ -35,4 +35,25 @@ AC:\Dev\PiotrPlayground\GitHub\SqCodeReview\ConsoleApp1\Program.cs
 //7 811 
 
 33 /
-337 855 
+337 855 
+
+:: *
+::2 3<< 
+
+>> 0
+>>8 9@@ 
+
+BB 0
+BB8 9DD 
+
+FF 0
+FF8 9HH 
+
+JJ 0
+JJ8 9LL 
+
+NN 0
+NN8 9PP 
+
+RR 0
+RR8 9TT 

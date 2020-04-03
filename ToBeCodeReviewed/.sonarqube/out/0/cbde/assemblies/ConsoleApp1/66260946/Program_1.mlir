@@ -144,3 +144,108 @@ return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp
 cbde.unreachable
 
 }
+func @_ConsoleApp1.Program.ReturnUpperString01$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :57 :2) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :57 :43)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :57 :43)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :59 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :59 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :59 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}
+func @_ConsoleApp1.Program.ReturnUpperString11$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :61 :8) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :61 :49)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :61 :49)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :63 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :63 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :63 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}
+func @_ConsoleApp1.Program.ReturnUpperString12$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :65 :8) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :65 :49)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :65 :49)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :67 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :67 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :67 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}
+func @_ConsoleApp1.Program.ReturnUpperString13$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :69 :8) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :69 :49)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :69 :49)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :71 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :71 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :71 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}
+func @_ConsoleApp1.Program.ReturnUpperString14$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :73 :8) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :73 :49)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :73 :49)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :75 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :75 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :75 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}
+func @_ConsoleApp1.Program.ReturnUpperString15$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :77 :8) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :77 :49)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :77 :49)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :79 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :79 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :79 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}
+func @_ConsoleApp1.Program.ReturnUpperString16$string$(none) -> none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :81 :8) {
+^entry (%_a : none):
+%0 = cbde.alloca none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :81 :49)
+cbde.store %_a, %0 : memref<none> loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :81 :49)
+br ^0
+
+^0: // JumpBlock
+%1 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :83 :19) // Not a variable of known type: a
+%2 = cbde.unknown : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :83 :19) // a.ToUpper() (InvocationExpression)
+return %2 : none loc("C:\\Dev\\PiotrPlayground\\GitHub\\SqCodeReview\\ConsoleApp1\\Program.cs" :83 :12)
+
+^1: // ExitBlock
+cbde.unreachable
+
+}

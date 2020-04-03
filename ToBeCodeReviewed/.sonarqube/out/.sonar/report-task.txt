@@ -1,6 +1,6 @@
-projectKey=SqCodeReview
+projectKey=Poc.CodeReview
 serverUrl=http://localhost:9000
 serverVersion=8.2.0.32929
-dashboardUrl=http://localhost:9000/dashboard?id=SqCodeReview
-ceTaskId=AXE8gEZuLgLV6kXs29JL
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXE8gEZuLgLV6kXs29JL
+dashboardUrl=http://localhost:9000/dashboard?id=Poc.CodeReview
+ceTaskId=AXE9ocdMv4GyqDLaRxxs
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXE9ocdMv4GyqDLaRxxs

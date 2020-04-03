@@ -144,5 +144,106 @@ namespace ToBeCodeReviewed
             }
             return;
         }
+		
+		public async Task FunctionHandler1(S3Event input, ILambdaContext context)
+        {
+            foreach(var record in input.Records)
+            {
+                if(!SupportedImageTypes.Contains(Path.GetExtension(record.S3.Object.Key)))
+                {
+                    Console.WriteLine($"Object {record.S3.Bucket.Name}:{record.S3.Object.Key} is not a supported image type");
+                    continue;
+                }
+
+                Console.WriteLine($"Looking for labels in image {record.S3.Bucket.Name}:{record.S3.Object.Key}");
+                var detectResponses = await this.RekognitionClient.DetectLabelsAsync(new DetectLabelsRequest
+                {
+                    MinConfidence = MinConfidence,
+                    Image = new Image
+                    {
+                        S3Object = new Amazon.Rekognition.Model.S3Object
+                        {
+                            Bucket = record.S3.Bucket.Name,
+                            Name = record.S3.Object.Key
+                        }
+                    }
+                });
+
+                var tags = new List<Tag>();
+                foreach(var label in detectResponses.Labels)
+                {
+                    if(tags.Count < 10)
+                    {
+                        Console.WriteLine($"\tFound Label {label.Name} with confidence {label.Confidence}");
+                        tags.Add(new Tag { Key = label.Name, Value = label.Confidence.ToString() });
+                    }
+                    else
+                    {
+                        Console.WriteLine($"\tSkipped label {label.Name} with confidence {label.Confidence} because the maximum number of tags has been reached");
+                    }
+                }
+
+                await this.S3Client.PutObjectTaggingAsync(new PutObjectTaggingRequest
+                {
+                    BucketName = record.S3.Bucket.Name,
+                    Key = record.S3.Object.Key,
+                    Tagging = new Tagging
+                    {
+                        TagSet = tags
+                    }
+                });
+            }
+            return;
+        }
+		public async Task FunctionHandler2(S3Event input, ILambdaContext context)
+        {
+            foreach(var record in input.Records)
+            {
+                if(!SupportedImageTypes.Contains(Path.GetExtension(record.S3.Object.Key)))
+                {
+                    Console.WriteLine($"Object {record.S3.Bucket.Name}:{record.S3.Object.Key} is not a supported image type");
+                    continue;
+                }
+
+                Console.WriteLine($"Looking for labels in image {record.S3.Bucket.Name}:{record.S3.Object.Key}");
+                var detectResponses = await this.RekognitionClient.DetectLabelsAsync(new DetectLabelsRequest
+                {
+                    MinConfidence = MinConfidence,
+                    Image = new Image
+                    {
+                        S3Object = new Amazon.Rekognition.Model.S3Object
+                        {
+                            Bucket = record.S3.Bucket.Name,
+                            Name = record.S3.Object.Key
+                        }
+                    }
+                });
+
+                var tags = new List<Tag>();
+                foreach(var label in detectResponses.Labels)
+                {
+                    if(tags.Count < 10)
+                    {
+                        Console.WriteLine($"\tFound Label {label.Name} with confidence {label.Confidence}");
+                        tags.Add(new Tag { Key = label.Name, Value = label.Confidence.ToString() });
+                    }
+                    else
+                    {
+                        Console.WriteLine($"\tSkipped label {label.Name} with confidence {label.Confidence} because the maximum number of tags has been reached");
+                    }
+                }
+
+                await this.S3Client.PutObjectTaggingAsync(new PutObjectTaggingRequest
+                {
+                    BucketName = record.S3.Bucket.Name,
+                    Key = record.S3.Object.Key,
+                    Tagging = new Tagging
+                    {
+                        TagSet = tags
+                    }
+                });
+            }
+            return;
+        }
     }
 }

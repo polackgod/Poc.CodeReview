@@ -1,0 +1,7 @@
+organization=polackgod
+projectKey=polackgod_Poc.CodeReview
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.6465
+dashboardUrl=https://sonarcloud.io/dashboard?id=polackgod_Poc.CodeReview
+ceTaskId=AXFAXYiN-uz-za9szRhJ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXFAXYiN-uz-za9szRhJ
